@@ -4,29 +4,20 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Healthpoints : MonoBehaviour
-{
-    public Slider slider;
+{   
+    // En referens till en slider (eller health bar) -Henry
+    public Slider slider; 
 
     public void SetMaxHealth(int health)
     {
+        // Sätter max-värdet av slidern -Henry
         slider.maxValue = health;
         slider.value = health;
     }
 
     public void SetHealth(int health)
     {
+        // Sätter health-värdet av slidern till det värde som tas in -Henry
         slider.value = health;
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

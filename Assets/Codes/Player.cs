@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+// Exempel på något som har en health bar -Henry
+public class Player : MonoBehaviour 
 {
     public int maxHealth = 100;
     public int currentHealth;
